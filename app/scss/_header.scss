@@ -1,0 +1,111 @@
+.header{
+  position: relative;
+  margin-bottom: -4px;
+  &__inner{
+    position: absolute;
+    right: 80px;
+    bottom: 117px;
+    text-align: right;
+  }
+  &__slider{
+    outline: none;
+    &__item{
+      height: 100vh;
+      width: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  &__slick{
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 -20px;
+    &__dots{
+      width: 200px;
+      padding: 0 20px;
+    }
+  }
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4px solid $white;
+    padding-top: 6px;
+    
+  }
+  &__title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  &__aside{
+    height: 100vh;
+    border-right: 1px solid rgba($white, .25);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    text-align: center;
+    &__logo{
+      margin-bottom: 118px;
+    }
+    &__search{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    &__location{
+      display: inline-block;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 1.05px;
+      color: $white;
+      padding-left: 19px;
+      position: relative;
+      &::before{
+        content: "";
+        position: absolute;
+        background-image: url(../img/map-marker.svg);
+        width: 11px;
+        height: 13px;
+        z-index: 4;
+        left: 0;
+      }
+    }
+    &__data{
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 64px;
+      color: $white;
+      margin-bottom: 30px;
+      span{
+        display: block;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 1.4px;
+        color: #FFFFFF;
+        padding-top: 17px;
+      }
+    }
+  }
+  &__map{
+    // display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+  }
+  &__arrows{
+    position: absolute;
+    left: 209px;
+    bottom: 41px;
+    z-index: 4;
+  }
+}

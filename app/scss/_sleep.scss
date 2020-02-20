@@ -1,0 +1,50 @@
+.sleep{
+  padding: 60px 0;
+  background-color: $black;
+  position: relative;
+  &__title{
+    margin-bottom: 80px;
+  }
+  &__rate{
+    padding-top: 135px;
+    min-height: 780px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    position: relative;
+    overflow: hidden;
+    &__title{
+      max-width: 430px;
+      position: absolute;
+      bottom: 0;
+      left: 135px;
+    }
+    &__dots{
+      margin-left: auto;
+      margin-right: 77px;
+      max-width: 500px;
+    }
+    &__dot{
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
+  &__slider{
+    padding: 109px 0;
+  }
+  &__slide{
+    &__wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 30px;
+      margin-bottom: 66px;
+    }
+    &__item{
+      position: relative;
+      height: 185px;
+    }
+    &__btn{
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1100px){
+  .sleep-hammock{
+    display: none;
+  }
+  .sleep-item__title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 925px){
+  .sleep-item__title{
+    font-size: 20px;
+  }
+  .sleep-item__suptitle{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px){
+  .sleep-item__title{
+    font-size: 18px;
+  }
+  .sleep__slide__wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+  .sleep-btn{
+    justify-content: flex-start;
+  }
+  .sleep__rate__title{
+    left: 15px;
+  }
+  .sleep__rate{
+    background-size: cover;
+  }
+
+}
+@media screen and (max-width: 550px){
+  .sleep__rate{
+    min-height: 380px;
+  }
+  .sleep__rate__title{
+    display: none;
+  }
+  .sleep__rate__dots{
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 450px){
+  .sleep__rate__dot{
+    h2{
+      font-size: 28px;
+      line-height: 35px;
+    }
+    h4{
+      font-size: 15px;
+    }
+  }
+  .sleep-item__suptitle{
+    font-size: 9px;
+  }
+}

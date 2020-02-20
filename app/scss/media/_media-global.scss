@@ -1,0 +1,32 @@
+@media screen and (max-width: 992px){
+  .title-opacity{
+    font-size: 130px;
+    line-height: 115px;
+  }
+  .title-position{
+    left: -30px;
+  }
+  .global__title{
+    max-width: 330px;
+  }
+  .top-line{
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 500px){
+  .title-opacity {
+    font-size: 85px;
+    line-height: 100px;
+  }
+  .global__title {
+    max-width: 185px;
+  }
+  .top-line {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 75px;
+  }
+  .btn-default{
+    font-size: 30px;
+  }
+}

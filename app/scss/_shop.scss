@@ -1,0 +1,27 @@
+.shop{
+  padding: 60px 0;
+  background-color: $black;
+  position: relative;
+  &__title{
+    margin-bottom: 80px;
+  }
+  &__inner{
+    min-height: 780px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    position: relative;
+  }
+  &__slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    &__item{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+    }
+  }
+  
+}

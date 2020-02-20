@@ -1,0 +1,17 @@
+.footer{
+  padding: 35px 0;
+  background-color: $black;
+  text-align: center;
+  &__btn{
+    margin-bottom: 30px;
+  }
+  &-text{
+    font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+  color: $white;
+  opacity: 0.5;
+  }
+}

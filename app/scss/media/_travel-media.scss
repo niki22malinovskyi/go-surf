@@ -1,0 +1,85 @@
+@media screen and (max-width: 1100px){
+  .travel-airline{
+    display: none;
+  }
+  .travel-item__title{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 992px){
+  .travel-item__title{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .travel__airline{
+    min-height: 580px;
+  }
+  .travel-item__suptitle{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px){
+  .travel__airline{
+    background-size: cover;
+  }
+  .travel-item__title{
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .travel-item__suptitle{
+    font-size: 12px;
+  }
+  .travel__airline__title{
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 382px;
+    h2{
+      font-size: 30px;
+      line-height: 35px;
+    }
+    h4{
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
+@media screen and (max-width: 700px){
+  .travel__slide__wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+  .travel__airline__title{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px){
+  .travel__airline__dots{
+    margin-right: 15px;
+  }
+  .travel__airline__dot{
+    h2{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    h4{
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
+@media screen and (max-width: 500px){
+  .travel__airline__dot{
+    white-space: pre-wrap;
+  }
+  .slick-arrows2{
+    top: 155px;
+  }
+  .travel-item__title{
+    font-size: 18px;
+  }
+  .travel__airline{
+    min-height: 380px;
+  }
+  .travel-text{
+    font-size: 10px;
+  }
+}

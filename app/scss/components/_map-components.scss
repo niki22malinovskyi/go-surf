@@ -1,0 +1,39 @@
+.position-img{
+  display: inline-block;
+  position: absolute;
+  top: 219px;
+  right: 0;
+}
+.map{
+  &__item-head{
+    line-height: 36px;
+    position: absolute;
+    left: 40px;
+    top: 72px;
+  }
+  &__item-subtext{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 40px;
+    right: 0;
+    height: 0;
+    width: 0;
+    bottom: 80px;
+    white-space: nowrap;
+    font-weight: 300;
+  }
+  &__item-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+  }
+  &__slide-dot__title{
+    margin-bottom: 60px;
+  }
+}
+.map-arrows{
+  top: -40px;
+}

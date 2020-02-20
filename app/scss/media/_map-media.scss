@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px){
+  .map-arrows{
+    top: -250px;
+    right: 15px;
+  }
+  .map-arrowsleft{
+    right: 60px;
+  }
+  .map__slide-dots {
+    max-width: 550px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 500px){
+  .title-opacity {
+    font-size: 85px;
+    line-height: 100px;
+  }
+  .global__title {
+    max-width: 185px;
+  }
+  .top-line {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 75px;
+  }
+  .map__slide-dot{
+    h2{
+      font-size: 20px;
+      line-height: 35px;
+    }
+    h4{
+      font-size: 10px;
+      line-height: 20px;
+    }
+  }
+}
